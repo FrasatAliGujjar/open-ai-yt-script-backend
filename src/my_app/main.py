@@ -6,7 +6,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Change this in production
+    allow_origins=["https://open-ai-yt-script.vercel.app/"],  # Change this in production
     allow_methods=["*"],
     allow_headers=["*"],
 )
