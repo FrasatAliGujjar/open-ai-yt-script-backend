@@ -1,5 +1,5 @@
 from openai import OpenAI
-from my_app.utils import get_title_and_description
+from .utils import get_title_and_description
 import os
 from dotenv import load_dotenv
 

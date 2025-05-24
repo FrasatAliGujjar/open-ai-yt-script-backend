@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
-from my_app.agent import get_video_summary
+from .agent import get_video_summary
 
 app = FastAPI()
 
